@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<style>
+img {
+    border: 1px solid black; 
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    padding: 2px;
+    }
+a {
+    color: white;
+    text-decoration: none;
+}
+</style>
+
+{% if messages %}
+<div class="card card-default">
+    {% for message in messages %}
+    <div class="card-header">Message</div>
+    <div class="card-body">{{ message }}</div>
+    {% endfor %}
+</div>
+{% endif %}
+<h2>Tutorial</h2>
+
+<div class="card text-white bg-info">
+    <div class="card-header">
+    Welcome to Election Forecast!
+    </div> 
+    <div class="card-body">
+    This tutorial will guide you through the basics of the site, and details what functions can be done on different pages. Toggle the panels and they will open a card to tell you about each important page.
+    </div> 
+</div>
+<hr>
+
+<div class="card text-white bg-success">
+    <a href="#index"><div class="card-header " data-toggle="collapse" data-target="#index">Index</div></a>
+    <div id="index" class="card-body collapse">
+        <p>When viewing the index page, the first thing to see is the table of seat results from the previous general election. Each party has a clickable hyperlink which goes to an individual party page, where you will see a list of the seats they obtained at the last election.</p>
+        <img src="{% static 'images/index.png'%}">
+        <p>Underneath this, there is a map of the constituencies in Great Britain, coloured corresponding to the party which is incumbent in each constituency.</p>
+        <img src="{% static 'images/index-map.jpg'%}" style="width: 35%">
+        <p>An election day timer is then conveyed below this, illustrating how long it is until the next general election. Ths has been calculated under the proviso of the Fixed Term Parliaments Act, which stipulates that an election is called every five years. This means that the next election is expected to be held on <b>Thursday 2nd May 2024</b>.</p>
+        <img src="{% static 'images/timer.png'%}">
+        <p>This page is completed with a long list of every constituency in the United Kingdom, coloured by the party currently incumbent in each seat. These are all clickable links, and will lead you to the corresponding constituency page.</p>
+        <img src="{% static 'images/constituencies.png'%}" style="width: 25%">
+    </div>
+</div><br>
+
+<div class="card text-white bg-primary">
+    <a href="#global-prediction"><div class="card-header" data-toggle="collapse" data-target="#global-prediction">Global Prediction</div></a>
+    <div class="card-body collapse" id="global-prediction">
+        <p>Clicking the "Prediction" link in the navigation bar above will lead you to a global, system-wide prediction which has been derived from the latest polling information from firms in the British Polling Council (YouGov, Survation, etc.). This prediction involves a number of variables in a multilevel regression and poststratification approach, which has been successfully adopted in many elections around the globe to date.</p>
+        <img src="{% static 'images/global-projection.png'%}">
+        <p>Under the flagship prediction of seats, a constituency-level breakdown is presented. The numbers correspond to the forecast number of votes that the system would allocate to each party in a constituency. Once again, these links are clickable and you can navigate to individual constituencies and parties from this page.</p>
+        <img src="{% static 'images/constituency-predictions.png'%}">
+    </div>
+</div><br>
+
+<div class="card text-white bg-danger">
+    <a href="#constituencies"><div class="card-header" data-toggle="collapse" data-target="#constituencies">Constituencies</div></a>
+    <div class="card-body collapse" id="constituencies">
+        <p>Each constituency page will display its name, incumbent, population, the number of votes in the last election, and its region. The incumbent is the party which won the last election in a particular locality, and population data is derived from the National Census 2011. The region that a constituency is linked to is rather loose-fitting, matching the Census rather than any other notional measurement. This is important for translating national opinion polls to individual constituencies.</p>
+        <img src="{% static 'images/constituency-info.png'%}"  style="width: 35%">
+        <p>Below this, the projected election result from the model will be displayed. The projected winning party will be drawn from taking the maximum of the number of votes in the constituency.</p>
+        <img src="{% static 'images/projected-constituency-result.png'%}">
+        <p>This will be able to be compared directly to the past election result, located below this in a table which looks similar but populated with varying levels of support for each party.</p>
+        <img src="{% static 'images/previous-constituency-result.png'%}">
+        <p>The final element of this page is the demographic information, simply there for any inquisitive minds or those looking to export data via script. The demographic information is, once again, taken from National Census archives in order to cross-tabulate opinion polls.</p>
+        <img src="{% static 'images/census-constituency.png'%}">
+    </div>
+</div><br>
+
+<div class="card text-white bg-secondary">
+    <a href="#new-prediction"><div class="card-header" data-toggle="collapse" data-target="#new-prediction">Create New Prediction</div></a>
+    <div class="card-body collapse" id="new-prediction">
+        <p>When creating an individual prediction, you will be greeted by a table of rows consisting of each party contesting the UK general election. You must be careful to only input values that total a maximum of 100%, although values less than this are acceptable too. These percentages DO include "undecided" and non-voters within them, as does the model.</p>
+        <img src="{% static 'images/make-new-prediction.png'%}">
+        <p>Once a successful prediction has been input into the model, the response will be a table of seat predictions, which are comparable easily with the results of the previous general election.</p>
+        <img src="{% static 'images/individual-prediction.png'%}">
+    </div>
+</div><br>
+
+<div class="card bg-light">
+    <a href="#profile"><div class="card-header" data-toggle="collapse" data-target="#profile">User Profile</div></a>
+    <div class="card-body collapse" id="profile">
+        <p>When you are logged in, you can access your user profile by clicking the "Profile" link in the navigation bar. This illustrates your username and the data which has been given to the site, as well as a long list of all your previous predictions, should you wish to share them with friends.</p>
+        <img src="{% static 'images/user-profile.png'%}">
+    </div>
+</div>
+{% endblock %}

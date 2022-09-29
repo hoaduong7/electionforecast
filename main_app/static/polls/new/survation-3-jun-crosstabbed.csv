@@ -1,0 +1,981 @@
+RespondentId,Party,Gender,AgeGroup,Region,SocialGroup,PastVote,Brexit
+1,Conservative,Male,45-54,Northern Ireland,DE,Conservative,Remain
+2,Conservative,Male,18-34,Wales,C1,Labour,Remain
+3,Conservative,Female,35-44,Midlands,DE,Liberal Democrats,Remain
+4,Conservative,Female,18-34,North,C1,Conservative,Leave
+5,Conservative,Female,65+,Midlands,C1,Conservative,Leave
+6,Conservative,Male,55-64,Wales,DE,Other,Leave
+7,Conservative,Female,65+,Scotland,C1,Conservative,Leave
+8,Conservative,Male,55-64,London,DE,Conservative,Leave
+9,Conservative,Male,65+,Scotland,DE,Conservative,Leave
+10,Conservative,Male,55-64,Scotland,AB,Conservative,Leave
+11,Conservative,Male,65+,London,DE,Conservative,Leave
+12,Conservative,Male,55-64,North,C2,Conservative,Remain
+13,Conservative,Female,45-54,North,C2,Conservative,Leave
+14,Conservative,Male,35-44,Wales,AB,Conservative,Leave
+15,Conservative,Male,35-44,South,C1,Conservative,Leave
+16,Conservative,Male,65+,Wales,DE,Conservative,Remain
+17,Conservative,Male,35-44,Midlands,C2,Conservative,Leave
+18,Conservative,Female,55-64,London,C1,Conservative,Leave
+19,Conservative,Male,18-34,London,C2,Conservative,Remain
+20,Conservative,Female,65+,Wales,C2,Conservative,Remain
+21,Conservative,Male,65+,South,C1,Conservative,Leave
+22,Conservative,Male,35-44,Midlands,AB,Conservative,Leave
+23,Conservative,Male,55-64,Midlands,C2,Conservative,Remain
+24,Conservative,Male,35-44,London,AB,Conservative,Leave
+25,Conservative,Female,35-44,North,AB,Conservative,Leave
+26,Conservative,Male,18-34,Midlands,C2,Conservative,Leave
+27,Conservative,Female,55-64,Wales,C2,Conservative,Leave
+28,Conservative,Female,18-34,Scotland,C2,Conservative,Remain
+29,Conservative,Female,55-64,Wales,DE,Conservative,Leave
+30,Conservative,Male,18-34,South,C1,Conservative,Leave
+31,Conservative,Female,18-34,Wales,DE,Conservative,Leave
+32,Conservative,Female,65+,Wales,AB,Conservative,Remain
+33,Conservative,Female,45-54,South,DE,Conservative,Remain
+34,Conservative,Male,35-44,Scotland,AB,Conservative,Leave
+35,Conservative,Female,35-44,Wales,DE,Conservative,Leave
+36,Conservative,Male,45-54,Wales,DE,Conservative,Leave
+37,Conservative,Female,65+,London,DE,Conservative,Leave
+38,Conservative,Male,55-64,North,AB,Conservative,Remain
+39,Conservative,Male,45-54,London,C1,Conservative,Remain
+40,Conservative,Male,55-64,London,C1,Conservative,Leave
+41,Conservative,Male,65+,London,C1,Conservative,Leave
+42,Conservative,Female,55-64,London,DE,Conservative,Remain
+43,Conservative,Female,55-64,North,DE,Conservative,Remain
+44,Conservative,Male,55-64,Scotland,C2,Conservative,Leave
+45,Conservative,Male,55-64,Scotland,C1,Conservative,Leave
+46,Conservative,Female,45-54,London,C1,Conservative,Leave
+47,Conservative,Male,65+,London,C1,Conservative,Leave
+48,Conservative,Female,55-64,Midlands,DE,Conservative,Leave
+49,Conservative,Female,35-44,London,DE,Conservative,Leave
+50,Conservative,Male,35-44,Midlands,DE,Conservative,Leave
+51,Conservative,Male,65+,London,DE,Conservative,Remain
+52,Conservative,Male,35-44,Wales,C2,Conservative,Leave
+53,Conservative,Female,55-64,Scotland,DE,Conservative,Leave
+54,Conservative,Female,65+,Scotland,DE,Conservative,Leave
+55,Conservative,Female,55-64,North,AB,Conservative,Leave
+56,Conservative,Male,65+,London,AB,Conservative,Remain
+57,Conservative,Male,35-44,Midlands,AB,Conservative,Leave
+58,Conservative,Male,35-44,North,AB,Conservative,Leave
+59,Conservative,Male,18-34,Midlands,C2,Conservative,Leave
+60,Conservative,Male,35-44,London,DE,Conservative,Leave
+61,Conservative,Male,45-54,Scotland,C1,Conservative,Leave
+62,Conservative,Female,35-44,Scotland,C2,Conservative,Leave
+63,Conservative,Female,55-64,London,C2,Conservative,Leave
+64,Conservative,Female,45-54,London,C1,Conservative,Remain
+65,Conservative,Male,35-44,Midlands,C1,Conservative,Leave
+66,Conservative,Female,65+,North,DE,Conservative,Leave
+67,Conservative,Female,55-64,Midlands,C1,Conservative,Leave
+68,Conservative,Male,35-44,North,DE,Conservative,Remain
+69,Conservative,Female,18-34,South,C2,Conservative,Leave
+70,Conservative,Male,65+,London,DE,Conservative,Remain
+71,Conservative,Male,18-34,South,DE,Conservative,Remain
+72,Conservative,Female,18-34,London,DE,Conservative,Leave
+73,Conservative,Female,65+,North,C2,Conservative,Leave
+74,Conservative,Female,55-64,Scotland,AB,Conservative,Leave
+75,Conservative,Female,65+,Midlands,C1,Conservative,Leave
+76,Conservative,Female,65+,Scotland,DE,Conservative,Remain
+77,Conservative,Female,18-34,Midlands,C1,Conservative,Leave
+78,Conservative,Female,65+,North,C1,Conservative,Remain
+79,Conservative,Female,18-34,Wales,C1,Conservative,Leave
+80,Conservative,Male,35-44,London,AB,Conservative,Leave
+81,Conservative,Female,35-44,London,DE,Conservative,Remain
+82,Conservative,Male,55-64,Midlands,DE,Conservative,Remain
+83,Conservative,Male,35-44,North,C2,Conservative,Leave
+84,Conservative,Male,18-34,Midlands,C2,Conservative,Remain
+85,Conservative,Female,65+,North,DE,Conservative,Remain
+86,Conservative,Female,18-34,London,C1,Conservative,Leave
+87,Conservative,Male,18-34,Wales,DE,Conservative,Leave
+88,Conservative,Female,65+,North,AB,Conservative,Remain
+89,Conservative,Male,18-34,Wales,AB,Conservative,Remain
+90,Conservative,Female,18-34,South,AB,Conservative,Leave
+91,Conservative,Female,65+,Wales,C2,Conservative,Leave
+92,Conservative,Female,18-34,Wales,C2,Conservative,Remain
+93,Conservative,Female,65+,Wales,C1,Conservative,Remain
+94,Conservative,Male,55-64,Scotland,DE,Conservative,Leave
+95,Conservative,Male,45-54,Midlands,C2,Conservative,Leave
+96,Conservative,Male,65+,London,C2,Conservative,Leave
+97,Conservative,Female,18-34,London,AB,Conservative,Remain
+98,Conservative,Male,35-44,Scotland,DE,Conservative,Leave
+99,Conservative,Male,55-64,London,C2,Conservative,Remain
+100,Conservative,Male,45-54,Wales,C2,Conservative,Remain
+101,Conservative,Male,18-34,North,C1,Conservative,Leave
+102,Conservative,Female,45-54,Wales,C1,Conservative,Remain
+103,Conservative,Male,55-64,South,AB,Conservative,Remain
+104,Conservative,Male,18-34,Scotland,C2,Conservative,Remain
+105,Conservative,Female,55-64,North,C2,Conservative,Leave
+106,Conservative,Female,45-54,South,C1,Conservative,Leave
+107,Conservative,Female,55-64,London,AB,Conservative,Remain
+108,Conservative,Male,55-64,Wales,AB,Conservative,Remain
+109,Conservative,Male,35-44,North,C2,Conservative,Leave
+110,Conservative,Male,45-54,South,AB,Conservative,Remain
+111,Conservative,Female,55-64,Scotland,AB,Conservative,Leave
+112,Conservative,Male,18-34,Midlands,DE,Conservative,Leave
+113,Conservative,Female,18-34,London,C1,Conservative,Leave
+114,Conservative,Female,35-44,Wales,DE,Conservative,Leave
+115,Conservative,Female,65+,London,DE,Conservative,Leave
+116,Conservative,Female,35-44,North,DE,Conservative,Leave
+117,Conservative,Male,65+,Midlands,AB,Conservative,Leave
+118,Conservative,Female,45-54,Wales,C2,Conservative,Leave
+119,Conservative,Male,18-34,South,DE,Conservative,Leave
+120,Conservative,Female,65+,North,C1,Conservative,Leave
+121,Conservative,Male,35-44,London,C2,Conservative,Remain
+122,Conservative,Male,45-54,South,C2,Conservative,Leave
+123,Conservative,Female,45-54,South,C1,Conservative,Leave
+124,Conservative,Female,45-54,Midlands,C2,Conservative,Remain
+125,Conservative,Male,35-44,Wales,AB,Conservative,Leave
+126,Conservative,Male,65+,South,C2,Conservative,Leave
+127,Conservative,Female,18-34,North,C2,Conservative,Leave
+128,Conservative,Male,45-54,London,AB,Conservative,Remain
+129,Conservative,Female,35-44,Wales,C2,Conservative,Leave
+130,Conservative,Male,18-34,London,C2,Conservative,Remain
+131,Conservative,Female,65+,Wales,AB,Conservative,Remain
+132,Conservative,Female,55-64,North,C1,Conservative,Remain
+133,Conservative,Female,65+,North,AB,Conservative,Remain
+134,Conservative,Female,35-44,North,C1,Conservative,Leave
+135,Conservative,Male,35-44,Wales,C2,Conservative,Leave
+136,Conservative,Male,45-54,Midlands,DE,Conservative,Leave
+137,Conservative,Male,65+,London,DE,Conservative,Leave
+138,Conservative,Male,55-64,South,C2,Conservative,Remain
+139,Conservative,Male,18-34,North,AB,Conservative,Remain
+140,Conservative,Female,18-34,South,C1,Conservative,Leave
+141,Conservative,Female,45-54,Midlands,AB,Conservative,Remain
+142,Conservative,Male,18-34,North,AB,Conservative,Leave
+143,Conservative,Male,45-54,South,DE,Conservative,Leave
+144,Conservative,Male,55-64,South,AB,Conservative,Leave
+145,Conservative,Male,18-34,Wales,DE,Conservative,Leave
+146,Conservative,Female,55-64,London,DE,Conservative,Remain
+147,Conservative,Male,18-34,Wales,C1,Conservative,Remain
+148,Conservative,Male,35-44,London,C1,Conservative,Leave
+149,Conservative,Male,55-64,Midlands,C2,Conservative,Remain
+150,Conservative,Female,45-54,North,C1,Conservative,Leave
+151,Conservative,Female,18-34,Wales,AB,Conservative,Leave
+152,Conservative,Male,45-54,North,DE,Conservative,Remain
+153,Conservative,Female,35-44,South,DE,Conservative,Leave
+154,Conservative,Male,55-64,London,C1,Conservative,Remain
+155,Conservative,Male,45-54,Midlands,DE,Conservative,Leave
+156,Conservative,Female,18-34,Midlands,C2,Conservative,Leave
+157,Conservative,Male,65+,South,C2,Conservative,Remain
+158,Conservative,Female,45-54,London,C2,Conservative,Remain
+159,Conservative,Male,18-34,Midlands,C1,Conservative,Remain
+160,Conservative,Female,35-44,Wales,C2,Conservative,Remain
+161,Conservative,Female,35-44,Midlands,DE,Conservative,Remain
+162,Conservative,Male,18-34,Midlands,C2,Conservative,Leave
+163,Conservative,Male,55-64,Midlands,DE,Conservative,Remain
+164,Conservative,Male,18-34,South,C1,Conservative,Remain
+165,Conservative,Female,55-64,Midlands,DE,Conservative,Remain
+166,Conservative,Female,35-44,London,AB,Conservative,Remain
+167,Conservative,Female,18-34,Wales,AB,Conservative,Leave
+168,Conservative,Male,18-34,Wales,AB,Conservative,Leave
+169,Conservative,Male,65+,Midlands,DE,Conservative,Leave
+170,Conservative,Female,45-54,South,C1,Conservative,Remain
+171,Conservative,Male,18-34,South,C2,Conservative,Remain
+172,Conservative,Male,18-34,Wales,DE,Conservative,Remain
+173,Conservative,Male,35-44,Wales,AB,Conservative,Remain
+174,Conservative,Female,45-54,North,C2,Conservative,Remain
+175,Conservative,Female,18-34,London,AB,Conservative,Remain
+176,Conservative,Female,35-44,Wales,DE,Conservative,Remain
+177,Conservative,Male,35-44,North,C1,Conservative,Remain
+178,Conservative,Female,65+,North,DE,Conservative,Remain
+179,Conservative,Male,35-44,Wales,DE,Conservative,Leave
+180,Conservative,Female,35-44,Wales,AB,Conservative,Remain
+181,Conservative,Male,55-64,London,AB,Conservative,Remain
+182,Conservative,Female,18-34,Midlands,AB,Conservative,Remain
+183,Conservative,Female,35-44,Midlands,AB,Conservative,Remain
+184,Conservative,Female,18-34,Wales,DE,Conservative,Remain
+185,Conservative,Male,65+,South,C2,Conservative,Leave
+186,Conservative,Female,35-44,Midlands,DE,Conservative,Remain
+187,Conservative,Female,45-54,Midlands,C1,Conservative,Leave
+188,Conservative,Male,65+,North,C2,Conservative,Leave
+189,Conservative,Female,55-64,Midlands,C2,Conservative,Leave
+190,Conservative,Female,18-34,South,DE,Conservative,Leave
+191,Conservative,Female,45-54,Midlands,C2,Conservative,Leave
+192,Conservative,Female,65+,South,C2,Conservative,Leave
+193,Conservative,Female,18-34,Wales,AB,Conservative,Leave
+194,Conservative,Female,18-34,South,DE,Conservative,Leave
+195,Conservative,Female,55-64,Wales,AB,Conservative,Leave
+196,Conservative,Female,55-64,Midlands,AB,Conservative,Leave
+197,Conservative,Male,35-44,North,C2,Conservative,Leave
+198,Conservative,Female,65+,North,DE,Conservative,Leave
+199,Conservative,Male,18-34,Wales,AB,Conservative,Leave
+200,Conservative,Male,35-44,North,DE,Conservative,Leave
+201,Conservative,Female,55-64,South,DE,Conservative,Leave
+202,Conservative,Female,45-54,South,C2,Conservative,Leave
+203,Conservative,Male,55-64,North,AB,Conservative,Leave
+204,Conservative,Male,55-64,Midlands,AB,Conservative,Leave
+205,Conservative,Female,18-34,Wales,DE,Conservative,Leave
+206,Conservative,Female,35-44,Wales,DE,Conservative,Leave
+207,Conservative,Male,65+,South,AB,Conservative,Leave
+208,Conservative,Female,45-54,Wales,C2,Conservative,Leave
+209,Conservative,Male,18-34,Wales,C2,Conservative,Leave
+210,Conservative,Female,45-54,South,C2,Conservative,Leave
+211,Conservative,Male,55-64,Midlands,C2,Conservative,Leave
+212,Conservative,Female,55-64,Midlands,DE,Conservative,Leave
+213,Conservative,Male,35-44,Midlands,AB,Conservative,Leave
+214,Conservative,Male,65+,South,DE,Conservative,Leave
+215,Conservative,Male,55-64,Wales,DE,Conservative,Leave
+216,Conservative,Male,65+,South,DE,Conservative,Leave
+217,Conservative,Male,18-34,South,C2,Conservative,Leave
+218,Conservative,Male,55-64,Midlands,C2,Conservative,Leave
+219,Conservative,Male,18-34,North,AB,Conservative,Leave
+220,Conservative,Female,55-64,South,AB,Conservative,Leave
+221,Conservative,Female,45-54,Wales,DE,Conservative,Leave
+222,Conservative,Female,65+,South,C2,Conservative,Leave
+223,Conservative,Female,55-64,Midlands,AB,Conservative,Leave
+224,Conservative,Female,65+,Midlands,AB,Conservative,Leave
+225,Conservative,Female,65+,Midlands,AB,Conservative,Leave
+226,Conservative,Male,65+,Wales,C2,Conservative,Leave
+227,Conservative,Male,45-54,North,AB,Conservative,Leave
+228,Conservative,Female,45-54,South,DE,Conservative,Leave
+229,Conservative,Female,45-54,North,C2,Conservative,Leave
+230,Conservative,Female,65+,Midlands,AB,Conservative,Leave
+231,Conservative,Female,45-54,Wales,AB,Conservative,Leave
+232,Conservative,Female,65+,North,AB,Conservative,Leave
+233,Conservative,Male,65+,Midlands,DE,Conservative,Leave
+234,Conservative,Male,55-64,Wales,AB,Conservative,Leave
+235,Conservative,Male,55-64,South,DE,Conservative,Leave
+236,Conservative,Female,55-64,Wales,AB,Conservative,Leave
+237,Conservative,Female,45-54,Wales,C2,Conservative,Leave
+238,Conservative,Male,55-64,Wales,AB,Conservative,Leave
+239,Conservative,Male,55-64,Wales,AB,Conservative,Leave
+240,Conservative,Female,55-64,North,AB,Conservative,Leave
+241,Conservative,Male,45-54,South,C2,Conservative,Leave
+242,Conservative,Female,55-64,Wales,AB,Conservative,Leave
+243,Conservative,Male,55-64,Midlands,AB,Conservative,Leave
+244,Conservative,Female,65+,North,AB,Conservative,Leave
+245,Conservative,Male,55-64,South,AB,Conservative,Leave
+246,Conservative,Female,45-54,North,AB,Conservative,Leave
+247,Conservative,Female,65+,South,C2,Conservative,Leave
+248,Conservative,Male,65+,South,DE,Conservative,Leave
+249,Conservative,Male,45-54,Wales,C2,Conservative,Leave
+250,Conservative,Male,55-64,South,AB,Conservative,Leave
+251,Conservative,Female,45-54,Midlands,AB,Conservative,Leave
+252,Conservative,Male,65+,Wales,AB,Conservative,Leave
+253,Conservative,Male,45-54,North,AB,Conservative,Leave
+254,Conservative,Female,45-54,Wales,DE,Conservative,Leave
+255,Conservative,Female,55-64,Wales,AB,Conservative,Leave
+256,Conservative,Female,45-54,Wales,C2,Conservative,Leave
+257,Conservative,Female,65+,South,C2,Conservative,Leave
+258,Conservative,Male,65+,North,C2,Conservative,Leave
+259,Conservative,Male,45-54,North,AB,Conservative,Leave
+260,Conservative,Male,45-54,Wales,DE,Conservative,Leave
+261,Conservative,Male,45-54,Midlands,DE,Conservative,Leave
+262,Conservative,Female,45-54,Wales,DE,Conservative,Leave
+263,Conservative,Female,45-54,Wales,C2,Conservative,Leave
+264,Conservative,Female,65+,North,DE,Conservative,Leave
+265,Conservative,Female,65+,North,DE,Conservative,Leave
+266,Conservative,Male,65+,North,C2,Conservative,Leave
+267,Conservative,Male,45-54,North,DE,Conservative,Leave
+268,Conservative,Male,45-54,Wales,C2,Conservative,Leave
+269,Conservative,Male,45-54,South,DE,Conservative,Leave
+270,Conservative,Female,45-54,South,C2,Conservative,Leave
+271,Conservative,Female,65+,Midlands,DE,Conservative,Leave
+272,Conservative,Female,65+,Midlands,DE,Conservative,Leave
+273,Conservative,Female,65+,Midlands,C2,Conservative,Leave
+274,Conservative,Male,65+,North,DE,Conservative,Leave
+275,Conservative,Female,45-54,Wales,C2,Conservative,Leave
+276,Conservative,Female,65+,Midlands,C2,Conservative,Leave
+277,Conservative,Male,45-54,Midlands,DE,Conservative,Leave
+278,Conservative,Male,65+,South,DE,Conservative,Leave
+279,Conservative,Female,45-54,South,DE,Conservative,Leave
+280,Conservative,Male,65+,South,DE,Conservative,Leave
+281,Conservative,Male,65+,Wales,DE,Conservative,Leave
+282,Conservative,Female,65+,Midlands,C2,Conservative,Leave
+283,Conservative,Male,65+,Midlands,DE,Conservative,Leave
+284,Conservative,Female,45-54,South,C2,Conservative,Leave
+285,Conservative,Female,65+,South,C2,Conservative,Leave
+286,Conservative,Female,65+,Wales,C2,Conservative,Leave
+287,Conservative,Female,45-54,Wales,C2,Conservative,Leave
+288,Conservative,Female,45-54,Midlands,DE,Conservative,Leave
+289,Conservative,Male,45-54,South,DE,Conservative,Leave
+290,Conservative,Male,45-54,South,C2,Conservative,Leave
+291,Conservative,Female,65+,Midlands,C2,Conservative,Leave
+292,Conservative,Female,65+,South,C2,Conservative,Leave
+293,Conservative,Female,45-54,Midlands,DE,Conservative,Leave
+294,Conservative,Male,65+,South,C2,Conservative,Leave
+295,Conservative,Female,45-54,South,C2,Conservative,Leave
+296,Conservative,Female,65+,Midlands,DE,Conservative,Leave
+297,Conservative,Male,65+,North,DE,Conservative,Did not vote
+298,Conservative,Male,65+,South,DE,Conservative,Did not vote
+299,Conservative,Female,65+,Midlands,DE,Conservative,Did not vote
+300,Conservative,Male,65+,Wales,DE,Conservative,Did not vote
+301,Conservative,Female,65+,Wales,DE,Conservative,Did not vote
+302,Conservative,Female,65+,North,DE,Conservative,Did not vote
+303,Conservative,Female,65+,North,DE,Conservative,Did not vote
+304,Conservative,Male,65+,Wales,DE,Conservative,Did not vote
+305,Conservative,Female,65+,South,DE,Conservative,Did not vote
+306,Conservative,Male,65+,South,DE,Conservative,Did not vote
+307,Conservative,Male,65+,South,DE,Conservative,Did not vote
+308,Conservative,Female,65+,Wales,DE,Conservative,Did not vote
+309,Conservative,Female,65+,South,DE,Conservative,Did not vote
+310,Conservative,Female,65+,South,DE,Conservative,Did not vote
+311,Conservative,Male,65+,South,DE,Conservative,Did not vote
+312,Conservative,Female,65+,South,DE,Conservative,Did not vote
+313,Conservative,Male,65+,South,DE,Conservative,Did not vote
+314,Conservative,Male,65+,South,DE,Conservative,Did not vote
+315,Conservative,Female,65+,South,DE,Conservative,Did not vote
+316,Conservative,Female,65+,North,DE,Conservative,Did not vote
+317,Conservative,Female,65+,Wales,DE,Conservative,Did not vote
+318,Conservative,Male,65+,Wales,DE,Conservative,Did not vote
+319,Conservative,Male,65+,North,DE,Conservative,Did not vote
+320,Conservative,Male,65+,Wales,DE,Conservative,Did not vote
+321,Conservative,Female,65+,Wales,DE,Conservative,Did not vote
+322,Conservative,Female,65+,North,DE,Conservative,Did not vote
+323,Conservative,Male,65+,South,DE,Conservative,Did not vote
+324,Conservative,Male,65+,North,DE,Conservative,Did not vote
+325,Conservative,Female,65+,Wales,DE,Conservative,Did not vote
+326,Conservative,Female,65+,Wales,DE,Conservative,Did not vote
+327,Conservative,Male,65+,North,DE,Conservative,Did not vote
+328,Conservative,Male,65+,North,DE,Conservative,Did not vote
+329,Conservative,Male,65+,North,DE,Conservative,Did not vote
+330,Conservative,Male,65+,North,DE,Conservative,Did not vote
+331,Conservative,Male,65+,South,DE,Conservative,Did not vote
+332,Conservative,Male,65+,South,DE,Conservative,Did not vote
+333,Conservative,Male,65+,North,DE,Conservative,Did not vote
+334,Conservative,Male,65+,Wales,DE,Conservative,Did not vote
+335,Conservative,Male,65+,Wales,DE,Conservative,Did not vote
+336,Conservative,Male,65+,South,DE,Conservative,Did not vote
+337,Conservative,Male,65+,Wales,DE,Conservative,Did not vote
+338,Conservative,Male,65+,Wales,DE,Conservative,Did not vote
+339,Conservative,Male,65+,Wales,DE,Conservative,Did not vote
+340,Conservative,Male,65+,North,DE,Conservative,Did not vote
+341,Conservative,Male,65+,North,DE,Conservative,Did not vote
+342,Conservative,Male,65+,Wales,DE,Conservative,Did not vote
+343,Conservative,Male,65+,North,DE,Conservative,Did not vote
+344,Conservative,Male,65+,North,DE,Conservative,Did not vote
+345,Labour,Female,65+,Midlands,C2,Liberal Democrats,Leave
+346,Labour,Female,65+,Wales,C2,Conservative,Leave
+347,Labour,Female,35-44,Northern Ireland,C2,Other,Remain
+348,Labour,Female,18-34,London,AB,Labour,Leave
+349,Labour,Male,18-34,Wales,AB,Labour,Remain
+350,Labour,Male,65+,Scotland,AB,Labour,Remain
+351,Labour,Male,65+,South,DE,Labour,Leave
+352,Labour,Male,65+,North,AB,Labour,Leave
+353,Labour,Female,65+,Scotland,C1,Labour,Leave
+354,Labour,Male,35-44,South,DE,Labour,Remain
+355,Labour,Female,45-54,London,DE,Labour,Leave
+356,Labour,Male,18-34,Midlands,AB,Labour,Remain
+357,Labour,Female,45-54,South,C1,Labour,Leave
+358,Labour,Male,55-64,Wales,C1,Labour,Remain
+359,Labour,Female,45-54,Midlands,DE,Labour,Leave
+360,Labour,Male,45-54,Scotland,AB,Labour,Leave
+361,Labour,Male,65+,London,AB,Labour,Remain
+362,Labour,Male,65+,Scotland,C2,Labour,Leave
+363,Labour,Male,45-54,Midlands,C2,Labour,Leave
+364,Labour,Male,18-34,Midlands,C1,Labour,Leave
+365,Labour,Female,45-54,Wales,C1,Labour,Leave
+366,Labour,Male,18-34,Midlands,C2,Labour,Remain
+367,Labour,Female,45-54,Wales,DE,Labour,Leave
+368,Labour,Male,35-44,London,AB,Labour,Leave
+369,Labour,Female,18-34,South,AB,Labour,Remain
+370,Labour,Male,45-54,London,C2,Labour,Leave
+371,Labour,Male,65+,London,C2,Labour,Leave
+372,Labour,Male,45-54,Midlands,C2,Labour,Remain
+373,Labour,Male,65+,North,AB,Labour,Remain
+374,Labour,Male,55-64,South,C2,Labour,Leave
+375,Labour,Female,18-34,North,AB,Labour,Remain
+376,Labour,Female,35-44,South,C2,Labour,Remain
+377,Labour,Female,18-34,North,C1,Labour,Remain
+378,Labour,Female,35-44,Wales,C2,Labour,Leave
+379,Labour,Female,65+,Wales,C1,Labour,Leave
+380,Labour,Female,65+,Wales,DE,Labour,Leave
+381,Labour,Male,45-54,Scotland,DE,Labour,Remain
+382,Labour,Female,45-54,Midlands,DE,Labour,Leave
+383,Labour,Female,55-64,London,AB,Labour,Leave
+384,Labour,Male,55-64,North,AB,Labour,Leave
+385,Labour,Male,45-54,South,AB,Labour,Leave
+386,Labour,Female,65+,Midlands,C2,Labour,Remain
+387,Labour,Female,65+,London,DE,Labour,Remain
+388,Labour,Female,18-34,North,C1,Labour,Remain
+389,Labour,Female,18-34,Scotland,C2,Labour,Leave
+390,Labour,Male,18-34,South,AB,Labour,Leave
+391,Labour,Male,45-54,Wales,C2,Labour,Remain
+392,Labour,Female,35-44,Scotland,DE,Labour,Leave
+393,Labour,Female,45-54,Midlands,C2,Labour,Leave
+394,Labour,Female,18-34,Midlands,C1,Labour,Remain
+395,Labour,Female,55-64,North,DE,Labour,Leave
+396,Labour,Male,45-54,North,C2,Labour,Leave
+397,Labour,Male,35-44,North,AB,Labour,Remain
+398,Labour,Male,18-34,London,C1,Labour,Remain
+399,Labour,Male,65+,Wales,C1,Labour,Leave
+400,Labour,Female,65+,Midlands,AB,Labour,Leave
+401,Labour,Female,18-34,Midlands,DE,Labour,Remain
+402,Labour,Female,18-34,London,C1,Labour,Remain
+403,Labour,Male,65+,South,AB,Labour,Remain
+404,Labour,Male,65+,South,AB,Labour,Remain
+405,Labour,Female,55-64,North,DE,Labour,Leave
+406,Labour,Female,35-44,Scotland,AB,Labour,Remain
+407,Labour,Male,18-34,North,DE,Labour,Leave
+408,Labour,Male,35-44,Scotland,DE,Labour,Remain
+409,Labour,Male,55-64,South,C2,Labour,Leave
+410,Labour,Female,45-54,Scotland,C1,Labour,Remain
+411,Labour,Male,55-64,Wales,C1,Labour,Leave
+412,Labour,Male,45-54,South,C2,Labour,Leave
+413,Labour,Male,18-34,South,C1,Labour,Remain
+414,Labour,Female,35-44,South,C1,Labour,Remain
+415,Labour,Male,45-54,Wales,C2,Labour,Remain
+416,Labour,Female,55-64,Midlands,C2,Labour,Remain
+417,Labour,Male,65+,Scotland,DE,Labour,Leave
+418,Labour,Male,35-44,Wales,C1,Labour,Remain
+419,Labour,Male,35-44,South,C2,Labour,Remain
+420,Labour,Female,65+,South,DE,Labour,Remain
+421,Labour,Female,65+,Scotland,DE,Labour,Leave
+422,Labour,Male,65+,Midlands,AB,Labour,Leave
+423,Labour,Female,55-64,Midlands,C2,Labour,Remain
+424,Labour,Female,35-44,Scotland,DE,Labour,Remain
+425,Labour,Female,18-34,Scotland,C1,Labour,Remain
+426,Labour,Female,65+,Midlands,C1,Labour,Leave
+427,Labour,Male,35-44,Wales,DE,Labour,Remain
+428,Labour,Male,18-34,Midlands,AB,Labour,Leave
+429,Labour,Male,18-34,London,C1,Labour,Remain
+430,Labour,Male,65+,North,C1,Labour,Remain
+431,Labour,Female,65+,Wales,DE,Labour,Leave
+432,Labour,Female,18-34,Scotland,AB,Labour,Leave
+433,Labour,Female,35-44,Wales,C1,Labour,Remain
+434,Labour,Female,55-64,London,DE,Labour,Leave
+435,Labour,Female,35-44,Midlands,DE,Labour,Leave
+436,Labour,Female,35-44,London,C1,Labour,Remain
+437,Labour,Male,65+,London,AB,Labour,Remain
+438,Labour,Male,55-64,London,AB,Labour,Leave
+439,Labour,Male,65+,Wales,DE,Labour,Remain
+440,Labour,Male,18-34,North,DE,Labour,Leave
+441,Labour,Male,55-64,Scotland,C2,Labour,Remain
+442,Labour,Male,18-34,Midlands,C1,Labour,Remain
+443,Labour,Female,65+,Wales,C2,Labour,Leave
+444,Labour,Female,35-44,London,AB,Labour,Leave
+445,Labour,Male,35-44,North,C2,Labour,Leave
+446,Labour,Male,45-54,Scotland,C1,Labour,Remain
+447,Labour,Male,45-54,Midlands,AB,Labour,Leave
+448,Labour,Female,65+,Wales,AB,Labour,Leave
+449,Labour,Male,65+,London,AB,Labour,Leave
+450,Labour,Male,45-54,South,DE,Labour,Remain
+451,Labour,Male,55-64,Wales,DE,Labour,Remain
+452,Labour,Female,45-54,Midlands,C1,Labour,Remain
+453,Labour,Male,55-64,London,DE,Labour,Remain
+454,Labour,Male,45-54,North,AB,Labour,Leave
+455,Labour,Male,55-64,North,DE,Labour,Leave
+456,Labour,Female,55-64,Scotland,AB,Labour,Leave
+457,Labour,Female,45-54,Midlands,C1,Labour,Leave
+458,Labour,Male,45-54,North,AB,Labour,Remain
+459,Labour,Female,65+,North,AB,Labour,Leave
+460,Labour,Female,35-44,Scotland,C2,Labour,Leave
+461,Labour,Male,45-54,Midlands,C2,Labour,Remain
+462,Labour,Male,45-54,London,C1,Labour,Leave
+463,Labour,Male,18-34,North,DE,Labour,Remain
+464,Labour,Male,18-34,London,AB,Labour,Leave
+465,Labour,Female,18-34,North,AB,Labour,Remain
+466,Labour,Female,65+,North,C1,Labour,Remain
+467,Labour,Female,55-64,South,C2,Labour,Leave
+468,Labour,Male,18-34,London,C2,Labour,Remain
+469,Labour,Female,18-34,North,AB,Labour,Remain
+470,Labour,Female,45-54,South,DE,Labour,Remain
+471,Labour,Male,35-44,London,C2,Labour,Leave
+472,Labour,Female,45-54,North,DE,Labour,Leave
+473,Labour,Male,18-34,Midlands,AB,Labour,Leave
+474,Labour,Male,35-44,South,C1,Labour,Leave
+475,Labour,Female,18-34,North,DE,Labour,Leave
+476,Labour,Female,45-54,Wales,C2,Labour,Remain
+477,Labour,Female,65+,London,AB,Labour,Remain
+478,Labour,Male,45-54,North,AB,Labour,Remain
+479,Labour,Female,55-64,London,C2,Labour,Remain
+480,Labour,Female,55-64,South,C2,Labour,Remain
+481,Labour,Male,65+,Midlands,DE,Labour,Remain
+482,Labour,Male,45-54,London,C1,Labour,Remain
+483,Labour,Male,18-34,North,AB,Labour,Remain
+484,Labour,Female,55-64,Wales,C2,Labour,Remain
+485,Labour,Female,65+,North,DE,Labour,Remain
+486,Labour,Female,55-64,North,C2,Labour,Remain
+487,Labour,Male,18-34,South,C1,Labour,Remain
+488,Labour,Male,35-44,Midlands,C2,Labour,Remain
+489,Labour,Female,65+,London,DE,Labour,Remain
+490,Labour,Male,35-44,Midlands,AB,Labour,Remain
+491,Labour,Male,35-44,South,AB,Labour,Remain
+492,Labour,Female,18-34,Wales,DE,Labour,Remain
+493,Labour,Male,18-34,North,C2,Labour,Remain
+494,Labour,Female,35-44,North,AB,Labour,Remain
+495,Labour,Male,35-44,Wales,DE,Labour,Remain
+496,Labour,Female,18-34,Midlands,C1,Labour,Remain
+497,Labour,Female,45-54,Midlands,C2,Labour,Remain
+498,Labour,Male,55-64,South,AB,Labour,Remain
+499,Labour,Male,18-34,North,C2,Labour,Remain
+500,Labour,Male,45-54,South,C2,Labour,Remain
+501,Labour,Female,45-54,London,DE,Labour,Remain
+502,Labour,Female,35-44,Midlands,DE,Labour,Remain
+503,Labour,Male,65+,South,C1,Labour,Remain
+504,Labour,Male,55-64,South,DE,Labour,Remain
+505,Labour,Female,18-34,North,DE,Labour,Remain
+506,Labour,Female,45-54,Wales,C1,Labour,Remain
+507,Labour,Female,18-34,South,DE,Labour,Remain
+508,Labour,Male,35-44,South,AB,Labour,Remain
+509,Labour,Male,45-54,Midlands,DE,Labour,Remain
+510,Labour,Male,45-54,Wales,C1,Labour,Remain
+511,Labour,Female,45-54,Midlands,AB,Labour,Remain
+512,Labour,Male,18-34,South,C1,Labour,Remain
+513,Labour,Male,18-34,Midlands,DE,Labour,Remain
+514,Labour,Male,35-44,Midlands,C1,Labour,Remain
+515,Labour,Male,18-34,North,C2,Labour,Remain
+516,Labour,Female,65+,London,DE,Labour,Remain
+517,Labour,Male,35-44,North,C2,Labour,Remain
+518,Labour,Male,35-44,South,DE,Labour,Remain
+519,Labour,Male,65+,Midlands,DE,Labour,Remain
+520,Labour,Female,35-44,North,DE,Labour,Remain
+521,Labour,Female,45-54,North,AB,Labour,Remain
+522,Labour,Female,18-34,North,AB,Labour,Remain
+523,Labour,Male,45-54,London,C2,Labour,Remain
+524,Labour,Female,45-54,South,C2,Labour,Remain
+525,Labour,Male,45-54,Midlands,C2,Labour,Remain
+526,Labour,Male,35-44,South,AB,Labour,Remain
+527,Labour,Male,35-44,North,C2,Labour,Remain
+528,Labour,Male,35-44,Wales,C2,Labour,Remain
+529,Labour,Female,18-34,London,DE,Labour,Remain
+530,Labour,Female,65+,London,DE,Labour,Remain
+531,Labour,Female,45-54,London,C1,Labour,Remain
+532,Labour,Female,65+,Wales,AB,Labour,Remain
+533,Labour,Male,45-54,Wales,AB,Labour,Remain
+534,Labour,Male,45-54,London,AB,Labour,Remain
+535,Labour,Male,55-64,North,C2,Labour,Remain
+536,Labour,Female,35-44,Wales,DE,Labour,Remain
+537,Labour,Female,55-64,North,DE,Labour,Remain
+538,Labour,Female,18-34,South,AB,Labour,Remain
+539,Labour,Male,35-44,North,C2,Labour,Remain
+540,Labour,Male,18-34,Midlands,AB,Labour,Remain
+541,Labour,Male,55-64,South,C1,Labour,Remain
+542,Labour,Female,65+,South,C1,Labour,Remain
+543,Labour,Male,65+,London,AB,Labour,Remain
+544,Labour,Male,18-34,North,AB,Labour,Remain
+545,Labour,Female,35-44,North,DE,Labour,Remain
+546,Labour,Male,35-44,Midlands,C1,Labour,Remain
+547,Labour,Male,35-44,London,DE,Labour,Remain
+548,Labour,Female,45-54,Midlands,C1,Labour,Remain
+549,Labour,Male,55-64,North,C2,Labour,Remain
+550,Labour,Female,35-44,Wales,AB,Labour,Remain
+551,Labour,Male,45-54,London,AB,Labour,Remain
+552,Labour,Female,65+,London,DE,Labour,Remain
+553,Labour,Female,55-64,London,AB,Labour,Remain
+554,Labour,Female,65+,Wales,C1,Labour,Remain
+555,Labour,Female,55-64,London,C1,Labour,Remain
+556,Labour,Female,35-44,Midlands,DE,Labour,Remain
+557,Labour,Male,65+,Wales,DE,Labour,Remain
+558,Labour,Female,18-34,Wales,C1,Labour,Remain
+559,Labour,Female,65+,London,C1,Labour,Remain
+560,Labour,Female,45-54,London,DE,Labour,Remain
+561,Labour,Female,65+,South,C2,Labour,Remain
+562,Labour,Male,35-44,London,DE,Labour,Remain
+563,Labour,Female,55-64,London,DE,Labour,Remain
+564,Labour,Male,18-34,Wales,DE,Labour,Remain
+565,Labour,Male,55-64,Wales,AB,Labour,Remain
+566,Labour,Female,18-34,Midlands,DE,Labour,Remain
+567,Labour,Female,35-44,London,C2,Labour,Remain
+568,Labour,Male,55-64,London,DE,Labour,Remain
+569,Labour,Female,55-64,South,C2,Labour,Remain
+570,Labour,Male,35-44,London,DE,Labour,Remain
+571,Labour,Male,35-44,Wales,DE,Labour,Remain
+572,Labour,Male,18-34,Midlands,AB,Labour,Remain
+573,Labour,Male,55-64,London,C2,Labour,Remain
+574,Labour,Male,35-44,London,DE,Labour,Remain
+575,Labour,Female,18-34,London,AB,Labour,Remain
+576,Labour,Male,35-44,North,DE,Labour,Remain
+577,Labour,Female,55-64,North,C2,Labour,Remain
+578,Labour,Female,18-34,London,DE,Labour,Remain
+579,Labour,Female,55-64,South,DE,Labour,Remain
+580,Labour,Female,35-44,North,DE,Labour,Remain
+581,Labour,Male,55-64,London,AB,Labour,Remain
+582,Labour,Male,18-34,Midlands,DE,Labour,Remain
+583,Labour,Male,35-44,Midlands,AB,Labour,Remain
+584,Labour,Female,18-34,Midlands,DE,Labour,Remain
+585,Labour,Female,18-34,South,DE,Labour,Remain
+586,Labour,Female,55-64,North,C2,Labour,Remain
+587,Labour,Female,35-44,London,AB,Labour,Remain
+588,Labour,Male,35-44,London,AB,Labour,Remain
+589,Labour,Male,18-34,London,DE,Labour,Remain
+590,Labour,Female,18-34,London,DE,Labour,Remain
+591,Labour,Male,55-64,Midlands,AB,Labour,Remain
+592,Labour,Male,55-64,London,AB,Labour,Remain
+593,Labour,Female,18-34,South,AB,Labour,Did not vote
+594,Labour,Male,35-44,Midlands,AB,Labour,Did not vote
+595,Labour,Male,55-64,North,C2,Labour,Did not vote
+596,Labour,Male,55-64,North,DE,Labour,Did not vote
+597,Labour,Female,18-34,South,AB,Labour,Did not vote
+598,Labour,Male,55-64,Midlands,AB,Labour,Did not vote
+599,Labour,Female,55-64,Wales,C2,Labour,Did not vote
+600,Labour,Male,35-44,South,DE,Labour,Did not vote
+601,Labour,Male,18-34,Wales,C2,Labour,Did not vote
+602,Labour,Female,55-64,North,DE,Labour,Did not vote
+603,Labour,Male,35-44,North,AB,Labour,Did not vote
+604,Labour,Female,35-44,North,C2,Labour,Did not vote
+605,Labour,Male,18-34,Midlands,AB,Labour,Did not vote
+606,Labour,Female,35-44,Midlands,AB,Labour,Did not vote
+607,Labour,Female,18-34,Midlands,AB,Labour,Did not vote
+608,Labour,Male,35-44,Wales,C2,Labour,Did not vote
+609,Labour,Female,18-34,Wales,AB,Labour,Did not vote
+610,Labour,Male,18-34,North,DE,Labour,Did not vote
+611,Labour,Female,35-44,North,AB,Labour,Did not vote
+612,Labour,Female,35-44,Wales,DE,Labour,Did not vote
+613,Labour,Male,35-44,South,DE,Labour,Did not vote
+614,Labour,Male,35-44,Midlands,DE,Labour,Did not vote
+615,Labour,Female,18-34,South,C2,Labour,Did not vote
+616,Labour,Male,18-34,Midlands,C2,Labour,Did not vote
+617,Labour,Female,18-34,North,DE,Labour,Did not vote
+618,Labour,Male,18-34,North,AB,Labour,Did not vote
+619,Labour,Female,18-34,Wales,DE,Labour,Did not vote
+620,Labour,Female,18-34,Wales,C2,Labour,Did not vote
+621,Labour,Male,18-34,Wales,C2,Labour,Did not vote
+622,Labour,Female,18-34,North,DE,Labour,Did not vote
+623,Labour,Female,18-34,South,C2,Labour,Did not vote
+624,Labour,Male,18-34,South,C2,Labour,Did not vote
+625,Labour,Male,18-34,North,AB,Labour,Did not vote
+626,Labour,Male,18-34,South,AB,Labour,Did not vote
+627,Labour,Female,18-34,Wales,AB,Labour,Did not vote
+628,Labour,Male,18-34,North,AB,Labour,Did not vote
+629,Labour,Male,18-34,Midlands,AB,Labour,Did not vote
+630,Labour,Male,18-34,South,AB,Labour,Did not vote
+631,Labour,Male,18-34,South,DE,Labour,Did not vote
+632,Labour,Female,18-34,Wales,DE,Labour,Did not vote
+633,Labour,Female,18-34,Wales,DE,Labour,Did not vote
+634,Labour,Male,18-34,Midlands,DE,Labour,Did not vote
+635,Labour,Male,18-34,Wales,DE,Labour,Did not vote
+636,Labour,Male,18-34,North,DE,Labour,Did not vote
+637,Labour,Male,18-34,North,AB,Labour,Did not vote
+638,Labour,Male,18-34,Wales,AB,Labour,Did not vote
+639,Labour,Female,18-34,North,DE,Labour,Did not vote
+640,Labour,Male,18-34,Wales,DE,Labour,Did not vote
+641,Labour,Male,18-34,North,DE,Labour,Did not vote
+642,Labour,Male,18-34,North,AB,Labour,Did not vote
+643,Labour,Female,18-34,Wales,DE,Labour,Did not vote
+644,Labour,Female,18-34,North,DE,Labour,Did not vote
+645,Labour,Male,18-34,North,DE,Labour,Did not vote
+646,Labour,Male,18-34,North,AB,Labour,Did not vote
+647,Labour,Male,18-34,North,AB,Labour,Did not vote
+648,Labour,Female,18-34,South,AB,Labour,Did not vote
+649,Labour,Female,18-34,Wales,AB,Labour,Did not vote
+650,Labour,Female,18-34,Wales,DE,Labour,Did not vote
+651,Labour,Male,18-34,Wales,AB,Labour,Did not vote
+652,Labour,Male,18-34,North,DE,Labour,Did not vote
+653,Labour,Male,18-34,Wales,AB,Labour,Did not vote
+654,Labour,Male,18-34,Wales,DE,Labour,Did not vote
+655,Labour,Female,18-34,Wales,AB,Labour,Did not vote
+656,Labour,Female,18-34,Wales,DE,Labour,Did not vote
+657,Labour,Male,18-34,Wales,AB,Labour,Did not vote
+658,Labour,Female,18-34,Wales,DE,Labour,Did not vote
+659,Labour,Female,18-34,South,DE,Labour,Did not vote
+660,Labour,Female,18-34,North,DE,Labour,Did not vote
+661,Labour,Male,18-34,Wales,AB,Labour,Did not vote
+662,Labour,Female,18-34,North,DE,Labour,Did not vote
+663,Labour,Female,18-34,Wales,AB,Labour,Did not vote
+664,Labour,Female,18-34,North,AB,Labour,Did not vote
+665,Labour,Female,18-34,Wales,AB,Labour,Did not vote
+666,Labour,Male,18-34,North,AB,Labour,Did not vote
+667,Labour,Male,18-34,North,AB,Labour,Did not vote
+668,Labour,Male,18-34,Wales,AB,Labour,Did not vote
+669,Labour,Male,18-34,North,AB,Labour,Did not vote
+670,Labour,Female,18-34,South,AB,Labour,Did not vote
+671,Labour,Female,18-34,Wales,AB,Labour,Did not vote
+672,Labour,Female,18-34,Wales,AB,Labour,Did not vote
+673,Labour,Female,18-34,Wales,AB,Labour,Did not vote
+674,Labour,Female,18-34,Wales,AB,Labour,Did not vote
+675,Labour,Female,18-34,South,AB,Labour,Did not vote
+676,Liberal Democrats,Female,65+,Northern Ireland,C1,Other,Remain
+677,Liberal Democrats,Female,35-44,North,AB,Conservative,Leave
+678,Liberal Democrats,Female,55-64,Scotland,C2,Liberal Democrats,Remain
+679,Liberal Democrats,Male,65+,Midlands,C2,Liberal Democrats,Remain
+680,Liberal Democrats,Female,35-44,Wales,C2,Liberal Democrats,Leave
+681,Liberal Democrats,Male,65+,North,C2,Labour,Leave
+682,Liberal Democrats,Female,55-64,South,AB,Liberal Democrats,Leave
+683,Liberal Democrats,Male,65+,Midlands,AB,Liberal Democrats,Leave
+684,Liberal Democrats,Male,18-34,Midlands,DE,Liberal Democrats,Remain
+685,Liberal Democrats,Female,55-64,Wales,AB,Liberal Democrats,Leave
+686,Liberal Democrats,Female,18-34,Wales,C2,Liberal Democrats,Remain
+687,Liberal Democrats,Male,45-54,North,C1,Liberal Democrats,Remain
+688,Liberal Democrats,Male,18-34,Midlands,C1,Liberal Democrats,Leave
+689,Liberal Democrats,Female,65+,Wales,C1,Liberal Democrats,Leave
+690,Liberal Democrats,Female,35-44,North,C2,Liberal Democrats,Leave
+691,Liberal Democrats,Male,18-34,Scotland,DE,Liberal Democrats,Remain
+692,Liberal Democrats,Male,45-54,South,C2,Liberal Democrats,Remain
+693,Liberal Democrats,Female,18-34,London,AB,Liberal Democrats,Remain
+694,Liberal Democrats,Female,45-54,South,DE,Liberal Democrats,Remain
+695,Liberal Democrats,Female,55-64,Scotland,AB,Liberal Democrats,Leave
+696,Liberal Democrats,Female,35-44,London,C1,Liberal Democrats,Leave
+697,Liberal Democrats,Male,18-34,London,C1,Liberal Democrats,Leave
+698,Liberal Democrats,Male,45-54,Wales,AB,Liberal Democrats,Remain
+699,Liberal Democrats,Female,35-44,London,C2,Liberal Democrats,Leave
+700,Liberal Democrats,Male,55-64,Wales,AB,Liberal Democrats,Remain
+701,Liberal Democrats,Female,65+,North,AB,Liberal Democrats,Leave
+702,Liberal Democrats,Male,45-54,North,C1,Liberal Democrats,Leave
+703,Liberal Democrats,Female,35-44,Wales,DE,Liberal Democrats,Remain
+704,Liberal Democrats,Female,65+,North,AB,Liberal Democrats,Remain
+705,Liberal Democrats,Male,45-54,Scotland,DE,Liberal Democrats,Remain
+706,Liberal Democrats,Female,65+,Scotland,DE,Liberal Democrats,Remain
+707,Liberal Democrats,Male,65+,Wales,AB,Liberal Democrats,Remain
+708,Liberal Democrats,Male,18-34,North,AB,Liberal Democrats,Remain
+709,Liberal Democrats,Male,45-54,Scotland,DE,Liberal Democrats,Remain
+710,Liberal Democrats,Male,65+,North,DE,Liberal Democrats,Remain
+711,Liberal Democrats,Female,65+,South,C1,Liberal Democrats,Remain
+712,Liberal Democrats,Female,45-54,Wales,DE,Liberal Democrats,Remain
+713,Liberal Democrats,Male,65+,London,C1,Liberal Democrats,Remain
+714,Liberal Democrats,Male,45-54,London,DE,Liberal Democrats,Remain
+715,Liberal Democrats,Male,55-64,South,AB,Liberal Democrats,Remain
+716,Liberal Democrats,Male,35-44,Wales,DE,Liberal Democrats,Remain
+717,Liberal Democrats,Female,45-54,South,DE,Liberal Democrats,Remain
+718,Liberal Democrats,Female,18-34,South,DE,Liberal Democrats,Remain
+719,Liberal Democrats,Male,18-34,South,AB,Liberal Democrats,Remain
+720,Liberal Democrats,Male,55-64,London,DE,Liberal Democrats,Remain
+721,Liberal Democrats,Male,65+,North,AB,Liberal Democrats,Remain
+722,Liberal Democrats,Male,18-34,Wales,DE,Liberal Democrats,Remain
+723,Liberal Democrats,Male,55-64,London,DE,Liberal Democrats,Remain
+724,Liberal Democrats,Male,18-34,London,AB,Liberal Democrats,Remain
+725,Liberal Democrats,Male,35-44,North,DE,Liberal Democrats,Did not vote
+726,Liberal Democrats,Male,55-64,Wales,AB,Liberal Democrats,Did not vote
+727,Liberal Democrats,Male,55-64,London,AB,Liberal Democrats,Did not vote
+728,Liberal Democrats,Female,18-34,North,DE,Liberal Democrats,Did not vote
+729,Liberal Democrats,Female,35-44,London,DE,Liberal Democrats,Did not vote
+730,Liberal Democrats,Female,35-44,South,DE,Liberal Democrats,Did not vote
+731,Liberal Democrats,Female,18-34,London,AB,Liberal Democrats,Did not vote
+732,Liberal Democrats,Female,18-34,South,DE,Liberal Democrats,Did not vote
+733,Liberal Democrats,Female,18-34,London,DE,Liberal Democrats,Did not vote
+734,Liberal Democrats,Female,18-34,South,AB,Liberal Democrats,Did not vote
+735,Liberal Democrats,Female,18-34,London,AB,Liberal Democrats,Did not vote
+736,Liberal Democrats,Female,35-44,South,DE,Liberal Democrats,Did not vote
+737,Liberal Democrats,Female,18-34,South,DE,Liberal Democrats,Did not vote
+738,Liberal Democrats,Male,18-34,South,AB,Liberal Democrats,Did not vote
+739,Liberal Democrats,Female,18-34,South,AB,Liberal Democrats,Did not vote
+740,Liberal Democrats,Female,18-34,South,AB,Liberal Democrats,Did not vote
+741,Liberal Democrats,Female,35-44,South,AB,Liberal Democrats,Did not vote
+742,Liberal Democrats,Female,35-44,South,AB,Liberal Democrats,Did not vote
+743,Green Party,Female,18-34,Midlands,C1,Labour,Remain
+744,Green Party,Female,35-44,South,C2,Conservative,Leave
+745,Green Party,Female,18-34,South,DE,Other,Leave
+746,Green Party,Male,18-34,Northern Ireland,DE,Other,Remain
+747,Green Party,Female,35-44,North,C1,Liberal Democrats,Remain
+748,Green Party,Female,55-64,London,DE,Other,Leave
+749,Green Party,Female,45-54,Wales,AB,Other,Remain
+750,Green Party,Female,45-54,Scotland,AB,Other,Leave
+751,Green Party,Male,45-54,London,C2,Other,Leave
+752,Green Party,Male,18-34,Midlands,AB,Other,Remain
+753,Green Party,Female,65+,Scotland,AB,Other,Leave
+754,Green Party,Male,35-44,London,AB,Other,Remain
+755,Green Party,Female,55-64,North,C1,Other,Remain
+756,Green Party,Male,65+,Wales,DE,Other,Remain
+757,Green Party,Male,55-64,Wales,DE,Other,Leave
+758,Green Party,Female,18-34,Wales,C1,Other,Leave
+759,Green Party,Male,45-54,South,AB,Other,Leave
+760,Green Party,Female,45-54,North,C1,Other,Leave
+761,Green Party,Female,35-44,North,C2,Other,Remain
+762,Green Party,Female,35-44,London,C2,Other,Remain
+763,Green Party,Female,18-34,Scotland,AB,Other,Leave
+764,Green Party,Female,18-34,North,AB,Other,Remain
+765,Green Party,Male,45-54,South,DE,Other,Leave
+766,Green Party,Female,18-34,London,AB,Other,Leave
+767,Green Party,Male,35-44,Wales,DE,Other,Remain
+768,Green Party,Female,45-54,London,DE,Other,Remain
+769,Green Party,Male,65+,South,AB,Other,Remain
+770,Green Party,Female,35-44,Wales,C2,Other,Remain
+771,Green Party,Female,18-34,Wales,DE,Other,Remain
+772,Green Party,Male,45-54,North,DE,Other,Did not vote
+773,Green Party,Female,18-34,Midlands,DE,Other,Did not vote
+774,Green Party,Female,18-34,North,AB,Other,Did not vote
+775,Green Party,Female,18-34,North,DE,Other,Did not vote
+776,Green Party,Female,65+,Scotland,AB,Other,Did not vote
+777,Green Party,Female,45-54,Scotland,DE,Other,Did not vote
+778,Green Party,Female,18-34,North,AB,Other,Did not vote
+779,Green Party,Male,18-34,Wales,DE,Other,Did not vote
+780,Green Party,Male,35-44,Wales,DE,Other,Did not vote
+781,Green Party,Male,35-44,Wales,AB,Other,Did not vote
+782,Green Party,Male,65+,South,DE,Other,Did not vote
+783,Scottish National Party,Female,35-44,Scotland,DE,Conservative,Remain
+784,Scottish National Party,Male,35-44,Scotland,C1,Other,Remain
+785,Scottish National Party,Male,45-54,Scotland,C2,Labour,Remain
+786,Scottish National Party,Male,35-44,Scotland,C1,Other,Leave
+787,Scottish National Party,Female,65+,Scotland,AB,Other,Leave
+788,Scottish National Party,Male,45-54,Scotland,AB,Other,Leave
+789,Scottish National Party,Male,45-54,Scotland,AB,Other,Leave
+790,Scottish National Party,Male,35-44,Scotland,DE,Liberal Democrats,Leave
+791,Scottish National Party,Male,55-64,Scotland,DE,Other,Remain
+792,Scottish National Party,Female,65+,Scotland,AB,Other,Remain
+793,Scottish National Party,Male,18-34,Scotland,DE,Other,Remain
+794,Scottish National Party,Male,45-54,Scotland,AB,Other,Leave
+795,Scottish National Party,Male,45-54,Scotland,AB,Other,Leave
+796,Scottish National Party,Male,55-64,Scotland,DE,Other,Leave
+797,Scottish National Party,Female,55-64,Scotland,AB,Other,Remain
+798,Scottish National Party,Female,65+,Scotland,DE,Other,Remain
+799,Scottish National Party,Female,35-44,Scotland,DE,Other,Leave
+800,Scottish National Party,Female,45-54,Scotland,AB,Other,Remain
+801,Scottish National Party,Male,55-64,Scotland,C2,Other,Remain
+802,Scottish National Party,Female,55-64,Scotland,DE,Other,Remain
+803,Scottish National Party,Female,65+,Scotland,AB,Other,Remain
+804,Scottish National Party,Female,65+,Scotland,DE,Other,Remain
+805,Scottish National Party,Female,45-54,Scotland,C2,Other,Remain
+806,Scottish National Party,Female,65+,Scotland,C2,Other,Remain
+807,Scottish National Party,Male,45-54,Scotland,C2,Other,Remain
+808,Scottish National Party,Male,65+,Scotland,DE,Other,Remain
+809,Scottish National Party,Male,18-34,Scotland,AB,Other,Did not vote
+810,Scottish National Party,Male,18-34,Scotland,DE,Other,Did not vote
+811,Scottish National Party,Male,18-34,Scotland,AB,Other,Did not vote
+812,Scottish National Party,Female,45-54,Scotland,AB,Other,Did not vote
+813,Scottish National Party,Male,45-54,Scotland,C2,Other,Did not vote
+814,Scottish National Party,Female,45-54,Scotland,DE,Other,Did not vote
+815,Scottish National Party,Male,18-34,Scotland,C2,Other,Did not vote
+816,Scottish National Party,Male,18-34,Scotland,C2,Other,Did not vote
+817,Scottish National Party,Male,18-34,Scotland,DE,Other,Did not vote
+818,Scottish National Party,Female,18-34,Scotland,DE,Other,Did not vote
+819,Scottish National Party,Female,18-34,Scotland,DE,Other,Did not vote
+820,Scottish National Party,Female,18-34,Scotland,DE,Other,Did not vote
+821,Scottish National Party,Female,18-34,Scotland,DE,Other,Did not vote
+822,Plaid Cymru,Female,45-54,Wales,C2,Other,Remain
+823,Plaid Cymru,Female,65+,Wales,C1,Other,Leave
+824,Plaid Cymru,Male,55-64,Wales,AB,Conservative,Leave
+825,Plaid Cymru,Male,18-34,Wales,AB,Labour,Leave
+826,Plaid Cymru,Male,18-34,Wales,AB,Other,Leave
+827,Brexit Party,Female,45-54,Scotland,AB,Liberal Democrats,Remain
+828,Brexit Party,Male,55-64,Midlands,C2,Labour,Leave
+829,Brexit Party,Female,65+,South,C2,Conservative,Leave
+830,Brexit Party,Male,35-44,Midlands,AB,Other,Leave
+831,Brexit Party,Female,65+,North,C1,Other,Leave
+832,Brexit Party,Male,18-34,Wales,DE,Other,Leave
+833,Brexit Party,Male,65+,South,C2,Other,Leave
+834,Brexit Party,Male,35-44,London,DE,Other,Leave
+835,Other,Female,65+,Scotland,C2,Liberal Democrats,Remain
+836,Other,Female,35-44,Midlands,AB,Labour,Remain
+837,Other,Male,45-54,South,C2,Conservative,Leave
+838,Other,Male,55-64,London,C2,Other,Leave
+839,Other,Female,55-64,Wales,C2,Other,Remain
+840,Other,Male,35-44,Wales,C2,Other,Remain
+841,Other,Female,18-34,South,AB,Other,Remain
+842,Other,Male,18-34,North,DE,Other,Leave
+843,Other,Male,65+,Midlands,DE,Other,Leave
+844,Other,Female,65+,Northern Ireland,C2,Other,Remain
+845,Other,Male,18-34,Wales,C1,Other,Remain
+846,Other,Female,65+,North,DE,Other,Leave
+847,Other,Female,35-44,South,C2,Other,Leave
+848,Other,Male,65+,Northern Ireland,DE,Other,Leave
+849,Other,Male,18-34,North,DE,Other,Remain
+850,Other,Male,45-54,Northern Ireland,C1,Other,Leave
+851,Other,Male,45-54,South,AB,Other,Remain
+852,Other,Female,35-44,South,AB,Other,Leave
+853,Other,Male,65+,Northern Ireland,C1,Other,Leave
+854,Other,Female,45-54,Northern Ireland,AB,Other,Leave
+855,Other,Male,65+,Northern Ireland,C2,Other,Leave
+856,Other,Male,45-54,Northern Ireland,DE,Other,Leave
+857,Other,Male,45-54,Northern Ireland,C1,Other,Leave
+858,Other,Male,65+,Northern Ireland,DE,Other,Leave
+859,Other,Male,65+,Northern Ireland,C1,Other,Leave
+860,Other,Male,45-54,Northern Ireland,C2,Other,Leave
+861,Other,Male,65+,Northern Ireland,AB,Other,Leave
+862,Other,Male,65+,Northern Ireland,DE,Other,Leave
+863,Undecided,Female,45-54,North,C1,Liberal Democrats,Leave
+864,Undecided,Female,65+,London,C1,Conservative,Remain
+865,Undecided,Male,35-44,Midlands,C1,Labour,Remain
+866,Undecided,Female,45-54,South,C2,Other,Leave
+867,Undecided,Male,18-34,Wales,DE,Did not vote,Leave
+868,Undecided,Female,55-64,London,C1,Did not vote,Remain
+869,Undecided,Male,45-54,South,AB,Did not vote,Leave
+870,Undecided,Female,35-44,Wales,C1,Did not vote,Remain
+871,Undecided,Male,45-54,Midlands,C2,Did not vote,Remain
+872,Undecided,Female,45-54,North,AB,Did not vote,Remain
+873,Undecided,Male,65+,London,C2,Did not vote,Remain
+874,Undecided,Female,18-34,Northern Ireland,DE,Did not vote,Remain
+875,Undecided,Female,18-34,Wales,DE,Did not vote,Leave
+876,Undecided,Female,35-44,Northern Ireland,C2,Did not vote,Remain
+877,Undecided,Female,35-44,Northern Ireland,DE,Did not vote,Leave
+878,Undecided,Female,18-34,Scotland,C2,Did not vote,Leave
+879,Undecided,Male,35-44,Northern Ireland,C1,Did not vote,Leave
+880,Undecided,Male,45-54,Midlands,C1,Did not vote,Leave
+881,Undecided,Male,65+,North,C1,Did not vote,Leave
+882,Undecided,Female,35-44,North,AB,Did not vote,Remain
+883,Undecided,Male,18-34,Midlands,C1,Did not vote,Leave
+884,Undecided,Male,55-64,Scotland,DE,Did not vote,Leave
+885,Undecided,Male,55-64,Wales,C2,Did not vote,Leave
+886,Undecided,Male,55-64,North,C1,Did not vote,Leave
+887,Undecided,Female,45-54,North,DE,Did not vote,Remain
+888,Undecided,Female,35-44,South,DE,Did not vote,Leave
+889,Undecided,Male,45-54,Northern Ireland,AB,Did not vote,Leave
+890,Undecided,Male,65+,Midlands,C2,Did not vote,Leave
+891,Undecided,Female,35-44,Scotland,DE,Did not vote,Remain
+892,Undecided,Male,65+,London,C1,Did not vote,Leave
+893,Undecided,Female,55-64,Wales,C1,Did not vote,Remain
+894,Undecided,Female,55-64,South,DE,Did not vote,Leave
+895,Undecided,Male,18-34,North,C1,Did not vote,Leave
+896,Undecided,Male,45-54,Northern Ireland,C1,Did not vote,Remain
+897,Undecided,Female,18-34,Northern Ireland,DE,Did not vote,Leave
+898,Undecided,Male,35-44,London,C1,Did not vote,Leave
+899,Undecided,Male,35-44,Midlands,DE,Did not vote,Leave
+900,Undecided,Female,35-44,Midlands,AB,Did not vote,Leave
+901,Undecided,Male,18-34,South,AB,Did not vote,Leave
+902,Undecided,Male,65+,Wales,C1,Did not vote,Leave
+903,Undecided,Female,65+,South,C2,Did not vote,Remain
+904,Undecided,Male,35-44,South,DE,Did not vote,Remain
+905,Undecided,Female,55-64,Midlands,C2,Did not vote,Leave
+906,Undecided,Female,45-54,South,DE,Did not vote,Remain
+907,Undecided,Female,18-34,Midlands,C2,Did not vote,Remain
+908,Undecided,Male,65+,Midlands,C1,Did not vote,Remain
+909,Undecided,Male,18-34,North,AB,Did not vote,Leave
+910,Undecided,Female,55-64,South,C2,Did not vote,Leave
+911,Undecided,Male,18-34,North,AB,Did not vote,Remain
+912,Undecided,Female,45-54,London,DE,Did not vote,Remain
+913,Undecided,Female,65+,North,DE,Did not vote,Remain
+914,Undecided,Female,45-54,North,AB,Did not vote,Leave
+915,Undecided,Female,65+,Midlands,DE,Did not vote,Leave
+916,Undecided,Male,18-34,Wales,AB,Did not vote,Remain
+917,Undecided,Male,18-34,South,DE,Did not vote,Remain
+918,Undecided,Male,18-34,Midlands,DE,Did not vote,Remain
+919,Undecided,Female,55-64,Midlands,C2,Did not vote,Leave
+920,Undecided,Female,35-44,North,C2,Did not vote,Remain
+921,Undecided,Male,18-34,South,AB,Did not vote,Remain
+922,Undecided,Female,65+,North,AB,Did not vote,Remain
+923,Undecided,Male,55-64,North,AB,Did not vote,Remain
+924,Undecided,Male,35-44,Wales,AB,Did not vote,Leave
+925,Undecided,Female,35-44,North,C2,Did not vote,Remain
+926,Undecided,Male,18-34,London,DE,Did not vote,Remain
+927,Undecided,Male,65+,Wales,AB,Did not vote,Remain
+928,Undecided,Male,55-64,South,AB,Did not vote,Remain
+929,Undecided,Male,18-34,Wales,C2,Did not vote,Remain
+930,Undecided,Male,35-44,Wales,DE,Did not vote,Remain
+931,Undecided,Female,65+,Wales,AB,Did not vote,Leave
+932,Undecided,Male,55-64,Midlands,AB,Did not vote,Leave
+933,Undecided,Male,65+,Midlands,AB,Did not vote,Remain
+934,Undecided,Female,55-64,Wales,AB,Did not vote,Leave
+935,Undecided,Female,18-34,Midlands,AB,Did not vote,Leave
+936,Undecided,Female,45-54,North,C2,Did not vote,Leave
+937,Undecided,Female,65+,Wales,AB,Did not vote,Leave
+938,Undecided,Female,45-54,Wales,DE,Did not vote,Leave
+939,Undecided,Female,55-64,North,DE,Did not vote,Leave
+940,Undecided,Female,55-64,North,DE,Did not vote,Leave
+941,Undecided,Female,55-64,Midlands,C2,Did not vote,Leave
+942,Undecided,Female,18-34,North,AB,Did not vote,Leave
+943,Undecided,Female,65+,North,AB,Did not vote,Did not vote
+944,Undecided,Female,18-34,London,C2,Did not vote,Did not vote
+945,Undecided,Female,45-54,London,AB,Did not vote,Did not vote
+946,Undecided,Female,18-34,London,DE,Did not vote,Did not vote
+947,Undecided,Female,18-34,Midlands,DE,Did not vote,Did not vote
+948,Undecided,Female,55-64,Midlands,DE,Did not vote,Did not vote
+949,Undecided,Female,65+,Wales,C2,Did not vote,Did not vote
+950,Undecided,Female,18-34,Midlands,DE,Did not vote,Did not vote
+951,Undecided,Female,55-64,Midlands,C2,Did not vote,Did not vote
+952,Undecided,Female,55-64,London,DE,Did not vote,Did not vote
+953,Undecided,Female,65+,South,C2,Did not vote,Did not vote
+954,Undecided,Female,45-54,Wales,C2,Did not vote,Did not vote
+955,Undecided,Female,18-34,London,DE,Did not vote,Did not vote
+956,Undecided,Female,45-54,Wales,DE,Did not vote,Did not vote
+957,Undecided,Female,55-64,South,C2,Did not vote,Did not vote
+958,Undecided,Female,55-64,South,C2,Did not vote,Did not vote
+959,Undecided,Female,55-64,Wales,DE,Did not vote,Did not vote
+960,Undecided,Female,55-64,Midlands,DE,Did not vote,Did not vote
+961,Undecided,Female,65+,South,DE,Did not vote,Did not vote
+962,Undecided,Female,65+,London,DE,Did not vote,Did not vote
+963,Undecided,Female,18-34,South,C2,Did not vote,Did not vote
+964,Undecided,Female,18-34,Midlands,DE,Did not vote,Did not vote
+965,Undecided,Female,45-54,Midlands,C2,Did not vote,Did not vote
+966,Undecided,Female,18-34,Midlands,DE,Did not vote,Did not vote
+967,Undecided,Female,45-54,South,C2,Did not vote,Did not vote
+968,Undecided,Female,18-34,Wales,C2,Did not vote,Did not vote
+969,Undecided,Female,18-34,Midlands,C2,Did not vote,Did not vote
+970,Undecided,Female,45-54,South,DE,Did not vote,Did not vote
+971,Undecided,Female,45-54,South,DE,Did not vote,Did not vote
+972,Undecided,Female,18-34,Midlands,DE,Did not vote,Did not vote
+973,Undecided,Female,18-34,South,DE,Did not vote,Did not vote
+974,Undecided,Female,18-34,Midlands,DE,Did not vote,Did not vote
+975,Undecided,Female,45-54,Midlands,DE,Did not vote,Did not vote
+976,Undecided,Female,45-54,Midlands,DE,Did not vote,Did not vote
+977,Undecided,Female,18-34,Midlands,DE,Did not vote,Did not vote
+978,Refused,Female,35-44,North,AB,Liberal Democrats,Leave
+979,Refused,Male,65+,Wales,AB,Conservative,Remain
+980,Refused,Female,55-64,London,C2,Other,Remain

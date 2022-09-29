@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h2>Election Forecast</h2>
+<a href="/user-prediction"><button class="btn btn-primary">Make New Prediction</button></a>
+<hr>
+<table class="table table-striped">
+<thead class="thead-dark">
+<th>Party</th>
+<th>Seats</th>
+</thead>
+{% for party, number in seats.items %}
+<tr>
+	<td style="background-color: {{party.hex_colour}}"><a style="color: white" href="/party/{{party.id}}/{{party.raw_name}}">{{ party }}</a></td>
+    <td> {{ number }}</td>
+</tr>
+{% endfor %}
+</table>
+
+
+
+
+<table class="table table-striped">
+<thead class="thead-dark">
+<th>Constituency</th>
+{% for party in parties %}
+<th>
+
+<a class="parties" style="color: {{party.hex_colour}}" href="/party/{{party.id}}/{{party.raw_name}}">{{party}}</a></th>
+{% endfor %}
+</thead>
+{% for result in results %}
+<tr>
+{% for x in result %}
+<td>
+{% if forloop.first %}
+    <a style="color: {{x.incumbent.hex_colour}}" href="/constituency/{{x.id}}/{{x.raw_name}}">{{ x }}</a> <br>
+{% else %}
+    {{ x }}
+{% endif %}
+</td>
+{% endfor %}
+</tr>
+{% endfor %}
+</table>
+<hr>
+<a class="btn btn-primary" href="/update-prediction" role="button">Update Prediction</a>
+
+{% endblock %}

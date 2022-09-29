@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<h2>{{ region.name }}</h2>
+
+Total Votes: {{region.total_votes}}
+<table class="table table-striped">
+<thead class="thead-dark">
+<th>Party</th>
+<th>Votes</th>
+<th>Seats</th>
+</thead>
+{% for party, result in region.get_result.items %}
+<tr>
+	<td><a class="parties" style="color: {{party.hex_colour}}" href="/party/{{party.id}}/{{party.raw_name}}">{{party}}</a></td>
+		{%for i in result%}
+			<td>	{{i}}</td>
+
+			{%endfor%}
+</tr>
+{% endfor %}
+</table>
+{% for constituency in constituencies %}
+	<a style="color: {{constituency.incumbent.hex_colour}}" href="/constituency/{{constituency.id}}/{{constituency.raw_name}}">{{ constituency.name }}</a><br>
+{% endfor %}
+
+{% endblock %}

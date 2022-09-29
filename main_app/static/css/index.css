@@ -1,0 +1,21 @@
+#countdown {
+  width: 100%;
+}
+label {
+}
+#countdown span {
+  font-size: 26px;
+  font-weight: normal;
+  text-align: center;
+  width: 25%;
+  display: block;
+  float: left;
+}
+
+
+
+
+
+
+
+

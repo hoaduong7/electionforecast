@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<h2>New Prediction</h2>
+<hr>
+<form action="." method="POST">
+
+    {% csrf_token %}
+    {{ formset.management_form }}
+    {{ formset.non_form_errors }}
+<table style="margin-left: auto; margin-right: auto" id="formset" class="table table-striped form col-12">
+    <thead class="thead-dark">
+    <tr>
+        <th>Party</th>
+        <th style="text-align: center">Default share</th>
+        <th style="text-align: center">Predicted share</th>
+    </tr>
+    </thead>
+    {% for form in formset %}
+    <tr class="{% cycle row1 row2 %}">
+        {% for item in form.initial.party %}
+            {% if forloop.first %}
+            <td>
+            <a style="color: {{ item.hex_colour }}" href="/party/{{ item.id }}/{{ item.raw_name }}">{{ item.name }}</a>
+            {% else %}
+            <td style="text-align: center">
+                {{ item }}                
+            {% endif %}
+            
+        </td>
+        {% endfor %}
+        <td style="text-align: center"><span>
+            {{ form.party }}
+            {{ form.vote_share }}%</span>
+            {% if form.errors %}
+                {{ form.vote_share.errors }}
+                {{ form.party.errors }}
+            {% endif %}
+        </td>
+     </tr>
+    {% endfor %}
+</table>
+    <button type="submit">Submit</button>
+
+</form>
+
+{% endblock %}

@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+{% if messages %}
+<div class="card card-default">
+    {% for message in messages %}
+    <div class="card-header">Message</div>
+    <div class="card-body">{{ message }}</div>
+    {% endfor %}
+</div>
+{% endif %}
+<hr>
+<h1>Election Forecast</h1>
+<hr>
+<a href="/user-prediction"><button class="btn btn-primary">Make New Prediction</button></a>
+<hr>
+<h2>2017 Election Result</h2>
+<table class="table table-striped">
+<thead class="thead-dark">
+<th>Party</th>
+<th>Seats</th>
+</thead>
+{% for party in parties %}
+<tr>
+	<td style="background-color: {{party.hex_colour}}"><a style="color: white" href="party/{{party.id}}/{{party.raw_name}}">{{ party.name }}</a></td>
+	<td>{{party.numberOfSeats}}</td>
+</tr>
+{% endfor %}
+</table>
+<img style="margin: 0 auto; display: block; width: 50%" src="{% static 'images/index-map.jpg' %}">
+<hr>
+<div class="well well-lg">
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Until Election Day:</h3>
+  </div>
+  <div class="panel-body">
+<span id="countdown"></span>
+  </div>
+</div>
+{% for constituency in constituencies %}
+	<a style="color: {{constituency.incumbent.hex_colour}}" href="constituency/{{constituency.id}}/{{constituency.raw_name}}">{{ constituency.name }}</a><br>
+{% endfor %}
+
+
+<script>
+// Update the count down every 1 second
+var x = setInterval(function() {
+  var countdown = document.getElementById('countdown');
+
+  var countDownDate = new Date("May 2, 2024, 07:00:00 UTC+1").getTime()
+  var now = new Date().getTime()
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24)).toString();
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString();
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString();
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000).toString();
+
+    countdown.innerHTML = '<span class="days">' + days +  ' <label>Days</label></span> <span class="hours">' + hours + ' <label>Hrs</label></span> <span class="minutes">'
+    + minutes + ' <label>Mins</label></span> <span class="seconds">' + seconds + ' <label>Secs</label></span>';  
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "Election!";
+  }
+}, 1000)
+</script>
+
+		
+
+{% endblock %}

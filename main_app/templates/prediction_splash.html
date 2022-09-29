@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h2>Prediction</th>
+<h4>{{ prediction.date }} GMT</h4>
+<h5>Creator: <a href="/user/{{prediction.user.username}}">{{prediction.user}}<a></h5>
+<table class="table">
+    <tr>
+    <thead>
+        <th class="col-5">Party</th>
+        <th class="col-3">Vote share</th>
+        <th class="col-2">Seats</th>
+        <th class="col-2">+- 2017</th>
+    </thead>
+    </tr>
+{% for p in party_predictions %}
+    <tr>
+    <td  style="background-color: {{ p.party.hex_colour }}" >
+    <a style="color:white" href="/party/{{p.party.id}}/{{p.party.raw_name}}">{{ p.party }}</a></td>
+    <td>{{p.vote_share}}%</td>
+    <td>{{p.seats}}
+    </td>
+    <td>{{p.change}}
+    </td>
+    </tr>
+
+{% endfor %}
+</table>
+<a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flocalhost%3A8000">Share to Twitter</a><br>
+<img src="{% static '' %}images/{{id}}.jpg" style="width: 50%">
+{% autoescape off %}
+    {{ results|safe }}
+{% endautoescape %}
+{% endblock %}

@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load tag_library %}
+{% block content %}
+
+<div>
+	<h2>{{ constituency.name }}</h2>
+    
+	<b>Incumbent: </b><a href="/party/{{constituency.incumbent.id}}/{{constituency.incumbent.raw_name}}" style="color: {{constituency.incumbent.hex_colour}}">{{ constituency.incumbent }}</a><br>
+	<b>Population:</b> {{population}}<br>
+	<b>Votes in 2017 election:</b> {{totalVotes}}<br>
+	<b>Region: </b><a href="/region/{{constituency.region.id}}">{{constituency.region}}</a>
+
+</div>
+
+<hr>
+<div>
+	<h3>Projected Election Result</h3>
+   	<p>The <b><a href="/party/{{projected_winner.id}}/{{projected_winner.raw_name}}" style="color: {{projected_winner.hex_colour}}">{{ projected_winner.fullname }}</a></b> is projected to win this seat in the next general election.</p>
+
+	<table id="projected-result" class="table table-hover table-striped table-bordered">
+	<thead class="thead-dark">
+	<th>
+		Party
+	</th>
+	<th>
+		Votes
+	</th>
+	</thead>
+	{% for party, result in prediction.items %}
+	<tr>
+		<td><a class="parties" style="color: {{party.hex_colour}}" href="/party/{{party.id}}/{{party.raw_name}}">{{party}}</a></td>
+		<td>{{result}}</td>
+	</tr>
+	{% endfor %}
+	</table>
+
+</div>
+
+
+<div>
+	<h3>2017 Election Result</h3>
+
+	<table id="result-2017" class="table table-hover table-striped table-bordered">
+	<thead class="thead-dark">
+	<th>
+		Party
+	</th>
+	<th>
+		Votes
+	</th>
+	</thead>
+	{% for party, result in getResults.items %}
+	<tr>
+		<td><a class="parties" style="color: {{party.hex_colour}}" href="/party/{{party.id}}/{{party.raw_name}}">{{party.name}}</a></td>
+		<td>{{result}}</td>
+	</tr>
+	{% endfor %}
+	</table>
+
+	<div id="piechart"></div>
+	<div id="euref_piechart"></div>
+</div>
+
+<hr>
+
+<div>
+	<h3>Demographic information</h3>
+	{% for type, group in getCensus.items %}
+	<h4>{{type}}</h4><br>
+	<table id="demographics" class="table table-hover table-striped table-bordered">
+	<thead class="thead-dark">
+	<tr>
+	<th class="col col-6">
+		Group
+	</th>
+	<th>
+		Number
+	</th>
+	</tr>
+	</thead>
+		{% for key, value in group.items %}
+	<tr>
+			<td>{{key}}</td> <td>{{value}}</td>
+	</tr>
+		{% endfor %}
+	</table>
+	{% endfor %}
+</div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+
+<script type="text/javascript">
+
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(electionResult);
+google.charts.setOnLoadCallback(euRefResult);
+
+// Draw the chart and set the chart values
+function electionResult() {
+  table = document.getElementById("result-2017");
+  
+  parties = document.getElementsByClassName("parties");
+  colors = []
+  for (i=0; i<parties.length;i++) {
+	colors.push(parties[i].style.color)
+  }
+  
+  var arr = []
+  for (let row of table.rows) 
+  {
+  	single = []
+  	for (let cell of row.cells) {
+  		single.push(cell.innerText)
+  	}
+  	arr.push(single.slice(0,2))
+  }
+  
+  for (i = 1; i < arr.length; i++) {
+	arr[i][1] = parseInt(arr[i][1])
+  }
+  var data = google.visualization.arrayToDataTable(arr);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'2017 Election Result', 'colors':colors, 'width':550, 'height':400};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+
+function euRefResult() {
+  var data = google.visualization.arrayToDataTable([["Remain","Leave"],["Remain",{{euref}}[0]], ["Leave",{{euref}}[1]] ]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'EU Referendum Result', 'colors':["#FFF890", "#327"], 'width':550, 'height':400};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('euref_piechart'));
+  chart.draw(data, options);
+}
+</script> 
+{% endblock %}
