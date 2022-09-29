@@ -1,4 +1,4 @@
-# electionforecast
+# Election Forecast
  
 ![image](https://user-images.githubusercontent.com/109381396/193018471-a8e6fde1-d5c7-4403-8190-933e2ac418aa.png)
 
